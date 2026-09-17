@@ -1,0 +1,12 @@
+{
+  "hosting": {
+    "public": ".",
+    "ignore": ["firebase.json", ".firebaserc", ".git/**", "README.md"],
+    "headers": [
+      {
+        "source": "/OneSignalSDKWorker.js",
+        "headers": [{ "key": "Service-Worker-Allowed", "value": "/" }]
+      }
+    ]
+  }
+}
